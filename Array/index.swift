@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+extension Array {
+	func randomElement() -> Element? {
+		if isEmpty {
+			return nil
+		}
+		let index: Int = Int(arc4random_uniform(UInt32(self.count))) //getting random index from array
+		return self[index]
+	}
+}
