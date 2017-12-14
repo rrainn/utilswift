@@ -8,7 +8,7 @@
 import Foundation
 
 extension Array {
-	func randomElement() -> Element? {
+	public func randomElement() -> Element? {
 		if isEmpty {
 			return nil
 		}
