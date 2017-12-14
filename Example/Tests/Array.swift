@@ -19,7 +19,7 @@ class ArrayTests: QuickSpec {
 					array = [1, 2, 3, 4, 5]
 				}
 				it("Should return number in array") {
-					expect(array).to(contain(array.randomElement()))
+					expect(array).to(contain(array.randomElement()!))
 				}
 			}
 		}
