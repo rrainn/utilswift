@@ -1,0 +1,22 @@
+{
+  "name": "utilswift",
+  "version": "0.1.0",
+  "summary": "A short description of utilswift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fishcharlie/utilswift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fishcharlie": "fishcharlie@me.com"
+  },
+  "source": {
+    "git": "https://github.com/fishcharlie/utilswift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "utilswift/Classes/**/*"
+}
