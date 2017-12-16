@@ -98,7 +98,7 @@
 		B102ABE4E54B71B3D2C2118E2782FAB9 /* BeLessThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF96C550BAD2A4F1B36336E4950F81AC /* BeLessThan.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		B2C151B20635A480E1937E3D2B509BB4 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85003248050785BFEF966D1E89E5A847 /* Async.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		B37D0376FCEB3133F44CF5F4416C58E1 /* CwlMachBadInstructionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = B4903A86024F5425CE9A8BE57C1F8E5A /* CwlMachBadInstructionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B510C5AB1FE1F95300BE0B48 /* index.swift in Sources */ = {isa = PBXBuildFile; fileRef = B510C5AA1FE1F95300BE0B48 /* index.swift */; };
+		B510C5B51FE2465E00BE0B48 /* index.swift in Sources */ = {isa = PBXBuildFile; fileRef = B510C5B41FE2465E00BE0B48 /* index.swift */; };
 		B6BF53E4BBF4818041BEC49A3A41BC80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
 		B75BC8C5934225BB0374D3E8B807696E /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 12989D830FCE4AEF54A357265111CAEF /* QCKDSL.m */; };
 		BC7B9761322C74FA27969BD55833BA47 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A6E1B1438113D3D4423FB3586E904A /* Errors.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -260,7 +260,7 @@
 		B38F7EB4258060BAA361D06EF1B16D9B /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Sources/Quick/Example.swift; sourceTree = "<group>"; };
 		B3B6045E75C2D2CBF310BFC536C5F1E7 /* EndWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndWith.swift; path = Sources/Nimble/Matchers/EndWith.swift; sourceTree = "<group>"; };
 		B4903A86024F5425CE9A8BE57C1F8E5A /* CwlMachBadInstructionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlMachBadInstructionHandler.h; path = Sources/Lib/CwlPreconditionTesting/CwlMachBadInstructionHandler/include/CwlMachBadInstructionHandler.h; sourceTree = "<group>"; };
-		B510C5AA1FE1F95300BE0B48 /* index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = index.swift; sourceTree = "<group>"; };
+		B510C5B41FE2465E00BE0B48 /* index.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = index.swift; path = ../utilswift/Classes/Array/index.swift; sourceTree = "<group>"; };
 		B62FC8D3EFD93B2D3877DF87DBB12631 /* Quick.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Quick.xcconfig; sourceTree = "<group>"; };
 		B6D48A33A49B17952C7ABB6214240CB9 /* URL+FileName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+FileName.swift"; path = "Sources/Quick/URL+FileName.swift"; sourceTree = "<group>"; };
 		B9985CC02179403DC54B3460DCE486AC /* QCKDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCKDSL.h; path = Sources/QuickObjectiveC/DSL/QCKDSL.h; sourceTree = "<group>"; };
@@ -398,7 +398,7 @@
 		40AFA54BC6D11B9CA7B27079DB689472 /* utilswift */ = {
 			isa = PBXGroup;
 			children = (
-				B510C5A91FE1F93B00BE0B48 /* Array */,
+				B510C5B31FE2465200BE0B48 /* Array */,
 				AF94B73CF7B3EDDD4D5F2AB70034514B /* Support Files */,
 			);
 			name = utilswift;
@@ -561,10 +561,10 @@
 			path = Nimble;
 			sourceTree = "<group>";
 		};
-		B510C5A91FE1F93B00BE0B48 /* Array */ = {
+		B510C5B31FE2465200BE0B48 /* Array */ = {
 			isa = PBXGroup;
 			children = (
-				B510C5AA1FE1F95300BE0B48 /* index.swift */,
+				B510C5B41FE2465E00BE0B48 /* index.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -893,7 +893,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B510C5AB1FE1F95300BE0B48 /* index.swift in Sources */,
+				B510C5B51FE2465E00BE0B48 /* index.swift in Sources */,
 				4D0BBDA8A25416AC52538580DCC9659D /* utilswift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
