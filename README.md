@@ -11,6 +11,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+- iOS 8.0+
+
 ## Installation
 
 utilswift is available through [CocoaPods](http://cocoapods.org). To install
@@ -27,3 +29,16 @@ rrainn, Inc., support@rrainn.com
 ## License
 
 utilswift is available under the MIT license. See the LICENSE file for more info.
+
+## Documentation
+
+### Array
+
+**`randomElement`**
+
+This method returns a randomElement from an array. If array is empty this method will return `nil`.
+
+```
+let array: [Int] = [1, 2, 3, 4, 5]
+print(array.randomElement()!)
+```
