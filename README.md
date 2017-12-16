@@ -1,4 +1,4 @@
-# utilswift - This project is not complete and not ready for use. utilswift will be launching in the coming days.
+# utilswift
 
 [![CI Status](http://img.shields.io/travis/rrainn/utilswift.svg?style=flat)](https://travis-ci.org/rrainn/utilswift)
 [![Version](https://img.shields.io/cocoapods/v/utilswift.svg?style=flat)](http://cocoapods.org/pods/utilswift)
