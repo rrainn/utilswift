@@ -12,6 +12,8 @@ before_install:
 script:
     - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/utilswift.xcworkspace -scheme utilswift-Example -destination "$DESTINATION" | xcpretty
     - pod lib lint
+after_success:
+    - bash <(curl -s https://codecov.io/bash)
 env:
     matrix:
         - DESTINATION="OS=11.1,name=iPhone X"
