@@ -12,12 +12,14 @@ before_install:
 script:
     - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/utilswift.xcworkspace -scheme utilswift-Example -destination "$DESTINATION" | xcpretty
     - pod lib lint
+after_success:
+    - bash <(curl -s https://codecov.io/bash)
 env:
     matrix:
+        - DESTINATION="OS=11.1,name=iPhone X"
         # - DESTINATION="OS=4.0,name=Apple Watch - 42mm" SCHEME="$WATCHOS_FRAMEWORK_SCHEME"  RUN_TESTS="YES"  BUILD_EXAMPLE="YES"
         # - DESTINATION="OS=3.2,name=Apple Watch - 42mm" SCHEME="$WATCHOS_FRAMEWORK_SCHEME"  RUN_TESTS="YES"  BUILD_EXAMPLE="YES"
         # - DESTINATION="OS=2.2,name=Apple Watch - 42mm" SCHEME="$WATCHOS_FRAMEWORK_SCHEME"  RUN_TESTS="YES"  BUILD_EXAMPLE="YES"
-        - DESTINATION="OS=11.1,name=iPhone X"
         # - DESTINATION="OS=10.3.1,name=iPhone 7 Plus"   SCHEME="$IOS_FRAMEWORK_SCHEME"      RUN_TESTS="YES" BUILD_EXAMPLE="YES
         # - DESTINATION="OS=9.3,name=iPhone 6"           SCHEME="$IOS_FRAMEWORK_SCHEME"      RUN_TESTS="YES" BUILD_EXAMPLE="YES
         # - DESTINATION="OS=8.4,name=iPhone 4S"          SCHEME="$IOS_FRAMEWORK_SCHEME"      RUN_TESTS="YES" BUILD_EXAMPLE="YES

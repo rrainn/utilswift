@@ -1,6 +1,7 @@
 # utilswift
 
 [![CI Status](http://img.shields.io/travis/rrainn/utilswift.svg?style=flat)](https://travis-ci.org/rrainn/utilswift)
+[![codecov](https://codecov.io/gh/rrainn/utilswift/branch/master/graph/badge.svg)](https://codecov.io/gh/rrainn/utilswift)
 [![Version](https://img.shields.io/cocoapods/v/utilswift.svg?style=flat)](http://cocoapods.org/pods/utilswift)
 [![License](https://img.shields.io/cocoapods/l/utilswift.svg?style=flat)](http://cocoapods.org/pods/utilswift)
 [![Platform](https://img.shields.io/cocoapods/p/utilswift.svg?style=flat)](http://cocoapods.org/pods/utilswift)
