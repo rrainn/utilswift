@@ -8,6 +8,9 @@
 import Foundation
 
 extension Array {
+	/// This method will return a random element in an array.
+	///
+	/// - Returns: Random element in array.
 	public func randomElement() -> Element? {
 		if isEmpty {
 			return nil
