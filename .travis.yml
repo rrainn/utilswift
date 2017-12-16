@@ -17,8 +17,8 @@ after_success:
 env:
     matrix:
         - DESTINATION="OS=11.1,name=iPhone X"
-        - DESTINATION="OS=11.0,name=iPhone X"
-        - DESTINATION="OS=10.3,name=iPhone 7 Plus"
+        - DESTINATION="OS=11.0.1,name=iPhone X"
+        - DESTINATION="OS=10.3.1,name=iPhone 7 Plus"
         - DESTINATION="OS=10.2,name=iPhone 7 Plus"
         - DESTINATION="OS=10.1,name=iPhone 7 Plus"
         - DESTINATION="OS=10.0,name=iPhone 7 Plus"
